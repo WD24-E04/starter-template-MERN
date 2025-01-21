@@ -77,7 +77,7 @@ PORT =
 DB_URI =
 ```
 
-You will need to update these values based on your application's requirements.
+> > You will need to update these values based on your application's requirements.
 
 ### 4. **Dependencies**
 
