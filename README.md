@@ -77,7 +77,7 @@ PORT =
 DB_URI =
 ```
 
-> > You will need to update these values based on your application's requirements.
+> You will need to update these values based on your application's requirements.
 
 ### 4. **Dependencies**
 
@@ -94,7 +94,7 @@ git clone git@github.com:WD24-E04/starter-template-MERN.git
 cd starter-template
 ```
 
-> > You might want to rename the cloned directory before proceeding.
+> You might want to rename the cloned directory before proceeding.
 
 ### 2. Install Dependencies and run the servers
 
