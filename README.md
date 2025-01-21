@@ -91,9 +91,10 @@ The required dependencies for both the backend and frontend are specified in the
 
 ```bash
 git clone git@github.com:WD24-E04/starter-template-MERN.git
-YOU MIGHT WANT TO RENAME THE FOLDER
 cd starter-template
 ```
+
+> > You might want to rename the cloned directory before proceeding.
 
 ### 2. Install Dependencies and run the servers
 
