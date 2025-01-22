@@ -2,8 +2,7 @@ import express from "express";
 import cors from "cors";
 import "dotenv/config";
 
-import connectDB from "./libs/database.js";
-import usersRouter from "./routes/usersRouter.js";
+import connectDB from "./utils/database.js";
 import {
   globalErrorHandler,
   routeNotFound,
@@ -16,8 +15,6 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
-
-app.use("/users", usersRouter);
 
 app.use(routeNotFound);
 app.use(globalErrorHandler);
